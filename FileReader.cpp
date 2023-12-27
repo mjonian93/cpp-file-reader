@@ -22,7 +22,6 @@ bool FileReader::close()
     return !in_file ? true : false;
 }
 
-
 bool FileReader::readChar(char &c)
 {
     return in_file.get(c) ? true : false;
